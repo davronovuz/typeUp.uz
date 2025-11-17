@@ -1,0 +1,45 @@
+.todo-app{
+  margin: 40px auto;
+  max-width: 500px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 12px 14px 15px #ccc;
+  border-radius: 10px;
+}
+
+.todo-app h1{
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.todo-area{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-area input{
+  flex: 1;
+  padding: 8px 22px;
+  border-radius: 6px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+}
+
+.todo-area button{
+  padding: 10px 16px;
+  background: #2871b2;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  transition: all 0.3s ease;
+  
+}
+
+.todo-area button:hover{
+  background: #154e7f;
+}
+
+
+
